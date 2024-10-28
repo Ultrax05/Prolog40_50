@@ -34,7 +34,7 @@ arbol_ejemplo(arbol_multiway(a, [
         arbol_multiway(f, [])
     ]),
     arbol_multiway(d, [])
-])).
+])),
     arbol_ejemplo(Arbol),
     longitud_camino_interno(Arbol, Longitud),
     write('Longitud del camino interno: '), write(Longitud), nl.
